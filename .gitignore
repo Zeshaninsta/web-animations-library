@@ -1,1 +1,41 @@
-./node_modules
+# Ignore node_modules directory
+node_modules/
+
+# Ignore logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore dotenv environment variables file
+.env
+
+# Ignore editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Ignore build directories
+dist/
+build/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore temporary files
+tmp/
+temp/
+
+# Ignore coverage directory
+coverage/
+
+# Ignore npm package files
+package-lock.json
+yarn.lock
+
+# Ignore other OS-specific files
+Thumbs.db
