@@ -37,6 +37,9 @@ Props:
 
 Contributions are welcome! Please open an issue or submit a pull request for any changes.
 
+Checkout the Node Package Here 
+[web-animations-library](https://www.npmjs.com/package/web-animations-library)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -44,5 +47,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 For any questions or inquiries, please contact [zeshaninsta@gmail.com](mailto:zeshaninsta@gmail.com).
-
-```
