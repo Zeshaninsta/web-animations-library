@@ -1,0 +1,29 @@
+{
+  "name": "web-animations-library",
+  "version": "1.0.8",
+  "description": "A collection of web animations using HTML, CSS, and React components.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeshaninsta/web-animations-library.git"
+  },
+  "author": "zeshaninsta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeshaninsta/web-animations-library/issues"
+  },
+  "homepage": "https://github.com/zeshaninsta/web-animations-library#readme",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@babel/preset-react": "^7.24.7"
+  }
+}

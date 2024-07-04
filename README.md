@@ -1,90 +1,48 @@
-# Web Animations Library
+# web-animations-library
 
-A collection of web animations using HTML, CSS, and React components. This library provides a variety of loading animations, button effects, hover animations, and more that can be easily integrated into any web project.
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-  - [HTML/CSS](#htmlcss)
-  - [React Components](#react-components)
-- [Animations](#animations)
-  - [Loading Animations](#loading-animations)
-  - [Button Animations](#button-animations)
-  - [Hover Animations](#hover-animations)
-- [Contributing](#contributing)
-- [License](#license)
+A collection of web animations using HTML, CSS, and React components.
 
 ## Installation
 
-### Using NPM (for React components)
+You can install the package using npm:
 
 ```bash
 npm install web-animations-library
 ```
-# Manual Download (for HTML/CSS)
+Usage
 
-## Download the repository and include the CSS and HTML files in your project.
-*Usage*
-**HTML/CSS**
-
-## Include the CSS file in your HTML file:
-
-```html
-<link rel="stylesheet" href="path/to/animations.css">
-```
-**Use the HTML structure for the desired animation from the examples provided in the repository.**
-
-## React Components
-
-**Import the desired component and use it in your React project:**
-
+Import the desired animation component and use it in your React application.
+CircleLoadingAnimation
+Example:
 ```jsx
-import { LoadingSpinner } from 'web-animations-library';
+import React from 'react';
+import { CircleLoadingAnimation } from 'web-animations-library';
 
 function App() {
     return (
         <div className="App">
-            <LoadingSpinner />
+            <CircleLoadingAnimation size={60} color="blue" />
         </div>
     );
 }
 
 export default App;
 ```
+Props:
 
-# Animations
-
-## Loading Animations
-
-- Circle Loading Spinner
-- Dual Ring Loader
-- Dots Loader
-- Pulse Loader
-
-## Button Animations
-
-- Pulse Button
-- Ripple Button
-- Bounce Button
-
-## Hover Animations
-
-- Grow Hover
-- Shadow Hover
-- Swing Hover
+    [.] size (number): The size of the loading animation (default is 40).
+    [.] color (string): The color of the loading animation (default is #000).
 
 ## Contributing
 
-We welcome contributions! Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/YourFeature`).
-3. Commit your changes (`git commit -am 'Add new feature'`).
-4. Push to the branch (`git push origin feature/YourFeature`).
-5. Create a new Pull Request.
+Contributions are welcome! Please open an issue or submit a pull request for any changes.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## Contact
+
+For any questions or inquiries, please contact [zeshaninsta@gmail.com](mailto:zeshaninsta@gmail.com).
+
+```
