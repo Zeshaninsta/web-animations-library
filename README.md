@@ -36,8 +36,8 @@ Props:
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any changes.
-
-Checkout the Node Package Here 
+## Node Package
+Checkout the Node Package Here: 
 [web-animations-library](https://www.npmjs.com/package/web-animations-library)
 
 ## License
